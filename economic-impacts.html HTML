@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Effects of Global Warming - Economic Impacts</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Effects of Global Warming</h1>
+      <nav>
+        <div class="menu-toggle">☰</div>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rising-temperatures.html">Rising Temperatures</a></li>
+          <li><a href="sea-level-rise.html">Sea Level Rise</a></li>
+          <li><a href="extreme-weather.html">Extreme Weather</a></li>
+          <li><a href="wildlife-impact.html">Wildlife Impact</a></li>
+          <li><a href="ocean-acidification.html">Ocean Acidification</a></li>
+          <li><a href="health-effects.html">Health Effects</a></li>
+          <li><a href="economic-impacts.html">Economic Impacts</a></li>
+          <li><a href="solutions.html">Solutions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Economic Impacts</h2>
+    <p>Crop failures, disaster costs, and infrastructure damage.</p>
+    <img src="https://www.earthreminder.com/wp-content/uploads/2020/01/human-climate-change-causes.jpg" alt="Human Causes and Impacts" class="section-img">
+    <p>Global economy could lose trillions annually.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Effects of Global Warming Info. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
