@@ -1,0 +1,72 @@
+<!-- quiz.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Global Warming Effects – Quiz</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Reuse the same header/navigation from your main pages -->
+  <header>
+    <div class="container">
+      <h1 class="logo">Effects of Global Warming</h1>
+      <nav>
+        <div class="menu-toggle">☰</div>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rising-temperatures.html">Rising Temperatures</a></li>
+          <li><a href="sea-level-rise.html">Sea Level Rise</a></li>
+          <li><a href="extreme-weather.html">Extreme Weather</a></li>
+          <li><a href="wildlife-impact.html">Wildlife Impact</a></li>
+          <li><a href="ocean-acidification.html">Ocean Acidification</a></li>
+          <li><a href="health-effects.html">Health Effects</a></li>
+          <li><a href="economic-impacts.html">Economic Impacts</a></li>
+          <li><a href="solutions.html">Solutions</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2 style="text-align:center; margin: 40px 0 60px;">Effects of Global Warming – Knowledge Quiz</h2>
+
+    <div id="quiz-start" class="start-screen">
+      <h3>Ready to test what you've learned?</h3>
+      <p>10 multiple-choice questions • Instant feedback • No time limit</p>
+      <button id="start-btn" class="btn primary">Start Quiz</button>
+    </div>
+
+    <div id="quiz" class="hidden">
+      <div class="progress">
+        Question <span id="current-question">1</span> of 10
+      </div>
+
+      <h3 id="question-text"></h3>
+
+      <div id="options" class="options"></div>
+
+      <button id="next-btn" class="btn primary hidden">Next Question</button>
+    </div>
+
+    <div id="result" class="hidden result-screen">
+      <h3>Your Score</h3>
+      <div class="score-circle">
+        <span id="score-value">0</span><span>/10</span>
+      </div>
+      <p id="result-message"></p>
+      <button id="restart-btn" class="btn secondary">Try Again</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Effects of Global Warming Info. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/quiz.js"></script>  <!-- ← new file for quiz logic -->
+</body>
+</html>
